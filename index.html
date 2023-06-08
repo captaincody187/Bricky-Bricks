@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bricky Bricks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      canvas {
+        background: #eee;
+        display: block;
+        margin: 0;
+        background: yellow;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+      }
+
+      body {
+        background-color: black;
+      }
+
+      h1,
+      p {
+        color: azure;
+        font-family: "Press Start 2P", cursive;
+        padding-top: 10px;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="top">
+      <h1>Bricky Bricks</h1>
+      <br />
+      <p>By Cody Simon</p>
+    </header>
+    <canvas id="myCanvas" width="700" height="500"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
